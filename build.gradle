@@ -1,5 +1,3 @@
-import org.w3c.dom.Text
-
 buildscript {
     ext {
         springBootVersion = '2.1.7.RELEASE'
