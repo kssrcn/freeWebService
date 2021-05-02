@@ -43,6 +43,6 @@ deploy:
     bundle_type: zip
     application: freeWebService
     deployment_group: freeWebService-group
-    region: ap-us-east-2
+    region: us-east-2
     wait-untill-deployed: true
 
