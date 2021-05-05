@@ -29,8 +29,8 @@ deploy:
   - provider: s3
     access_key_id: $AWS_ACCESS_KEY
     secret_access_key: $AWS_SECRET_KEY
-    bucket: freewebservice-springboot-build
-    region: ap-northeast-2
+    bucket: freewebservice-springboot-build2
+    region: us-east-2
     skip_cleanup: true
     acl: private
     local_dir: deploy
@@ -39,7 +39,7 @@ deploy:
   - provider: codedeploy
     access_key_id: $AWS_ACCESS_KEY
     secret_access_key: $AWS_SECRET_KEY
-    bucket: freewebservice-springboot-build
+    bucket: freewebservice-springboot-build2
     key: freeWebService.zip  #여기?
     bundle_type: zip
     application: freeWebService #여기?
